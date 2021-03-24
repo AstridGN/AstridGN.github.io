@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+ 
+
+
+.rect {
+	z-index:-2;
+	position: absolute;
+	background:white;
+	width:100%;
+	height:12%;
+	margin-left: 0%;
+	top:0%
+	
+	
+}
+
+
+
+body {
+  background-color: lightgray;
+    
+}
+
+h2{
+    font-family: helvetica;
+    font-size: 36pt;
+    font-weight: normal;
+}
+
+h1{
+    font-family: helvetica;
+    font-size: 16pt;
+    font-weight: normal;
+}
+
+p{
+    font-family: helvetica;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.title {
+    margin-left: -150pt;
+    margin-top: 150pt; 
+    text-align:center;
+}
+
+.nav {
+    margin-left: 20pt;
+    margin-top: 10pt;
+}
+
+.info {
+    margin-left: 20pt;
+    margin-top: 80pt;
+}
+
+.description{
+    margin-left: 20pt;
+    margin-top: 80pt;   
+    position:absolute;
+}
+
+.topimg {
+    margin-left:200pt;
+    margin-top: 80pt;
+    max-width:60%;
+    
+    
+}
+
+img {
+    margin-left:200pt;
+    margin-top: 5pt;
+    max-width:60%;
+    
+    
+}
+
+
+
+
