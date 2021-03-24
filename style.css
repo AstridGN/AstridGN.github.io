@@ -24,7 +24,7 @@ html, body {
 
 body {
   background-color: lightgray;
-    
+    font-family: helvetica;
 }
 
 h2{
@@ -105,6 +105,88 @@ img {
     
 }
 
+#sidebar {
+    display:none;
+}
+
+.nav1 {
+    display:none;
+}
 
 
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 669px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+.description {
+    margin-left: 20pt;
+    margin-top: 10pt;   
+    position:absolute; 
+}
+
+.topimg {
+    margin-left:20pt;
+    margin-top: 80pt;
+    max-width:90%;
+       
+}
+
+img {
+    margin-left:20pt;
+    margin-top: 5pt;
+    max-width:90%;
+    
+    
+}
+
+.nav {
+    display:none;
+}
+
+.nav1 {
+    display:block;
+    margin-left: 20pt;
+    margin-top: 10pt;
+}
+
+
+#sidebar {
+    top:40px;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    left: -300px;
+    transition: .4s;
+    display:inline;
+    background: lightgray;
+}
+
+#sidebar.active{
+    left:50px;
+}
+
+#sidebar ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 24px;
+    margin-left:-50px;
+    background: lightgray;
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+
+.toggle-btn span {
+    width: 45px;
+    height: 4px;
+    background: #000;
+    display:block;
+    margin-top: 4px;
+}
+
+}
 
