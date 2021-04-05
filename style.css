@@ -39,10 +39,29 @@ h1{
     font-weight: normal;
 }
 
+h3{
+    font-family: helvetica;
+    font-size: 60pt;
+    font-weight: normal;
+    margin-top:-3650px;
+    margin-left:150px;
+    position:relative;
+    z-index:2;
+}
+
+
 p{
     font-family: helvetica;
     font-size: 14pt;
     font-weight: normal;
+    max-width: 650px;
+    line-height: 1.2em;
+    
+}
+
+.p1{
+   margin-left: 130pt;
+   
 }
 
 
@@ -60,7 +79,27 @@ a:hover {
     color: grey;
     background-color: transparent;
     text-decoration: underline;
+    position:relative;
 }
+
+a:hover.dino:after {
+    content: url();
+    display: block;
+    position: absolute;
+    margin-left:200pt;
+    max-width: 60%;
+    margin-top: 0pt;
+}
+
+a:hover.translucent:after {
+    content: url();
+    display: block;
+    position: absolute;
+    margin-left:200pt;
+    max-width: 60%;
+    margin-top: 0;
+}
+
 a:active {
     color: grey;
     background-color: transparent;
@@ -105,6 +144,9 @@ img {
     
 }
 
+
+
+
 #sidebar {
     display:none;
 }
@@ -113,16 +155,31 @@ img {
     display:none;
 }
 
+.ball {
+   
+  margin-top:200px;
+   width:40%;
+   
+}
+
 
 @media only screen 
 and (min-device-width: 375px) 
 and (max-device-width: 669px)
 and (-webkit-min-device-pixel-ratio: 2){
 
+.info{
+    margin-top:50px;
+    max-width:320px;
+    
+}
+
+
 .description {
     margin-left: 20pt;
     margin-top: 10pt;   
     position:absolute; 
+    z-index:-1;
 }
 
 .topimg {
@@ -154,39 +211,70 @@ img {
 #sidebar {
     top:40px;
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: 100%;
-    left: -300px;
+    left: -350px;
     transition: .4s;
-    display:inline;
+    display:block;
     background: lightgray;
 }
 
 #sidebar.active{
+    left:20px;
+}
+
+.toggle-btn.active{
     left:50px;
 }
+
+
 
 #sidebar ul li {
     list-style: none;
     font-size: 20px;
     padding: 20px 24px;
-    margin-left:-50px;
+    margin-left:-20px;
     background: lightgray;
 }
 
 #sidebar .toggle-btn {
     position: absolute;
-    top: 30px;
+    top: -29px;
     left: 330px;
+    display:none;
 }
+
+
 
 .toggle-btn span {
-    width: 45px;
-    height: 4px;
+    width: 35px;
+    height: 3px;
     background: #000;
     display:block;
-    margin-top: 4px;
+    position:relative;
+    margin-top: 3px;
+    top:-23px;
+    margin-left:23px;
 }
 
+.testgif {
+    max-width:180%;
+    margin-top:20pt;
+    margin-left:-120pt;
+    position:fixed;
+    z-index:-2;
 }
+
+h1{
+    margin-left:80px;
+}
+
+.p1{
+    margin-left: 20pt;
+    max-width: 320px;
+    
+ }
+
+}
+
 
