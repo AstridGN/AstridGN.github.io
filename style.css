@@ -126,6 +126,7 @@ a:active {
     margin-left: 20pt;
     margin-top: 80pt;   
     position:absolute;
+    display:block;
 }
 
 .topimg {
