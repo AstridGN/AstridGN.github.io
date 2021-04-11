@@ -137,6 +137,14 @@ a:active {
     
 }
 
+.portrait {
+    margin-left:270pt;
+    margin-top: -100pt;
+    max-width:30%;
+    
+    
+}
+
 img {
     margin-left:200pt;
     margin-top: 5pt;
@@ -148,6 +156,7 @@ img {
 .testgifsmall {
     display:none;
 }
+
 
 
 
@@ -297,6 +306,14 @@ h1{
 
 .dubbel {
     margin-left:26px;
+}
+
+.portrait {
+    margin-left:20pt;
+    margin-top: 0pt;
+    max-width:70%;
+    
+    
 }
 
 }
