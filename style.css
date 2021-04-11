@@ -145,6 +145,10 @@ img {
     
 }
 
+.testgifsmall {
+    display:none;
+}
+
 
 
 
@@ -164,13 +168,15 @@ img {
 }
 
 
+
+
 @media only screen 
 and (min-device-width: 375px) 
 and (max-device-width: 669px)
 and (-webkit-min-device-pixel-ratio: 2){
 
 .info{
-    margin-top:50px;
+    margin-top:0px;
     max-width:320px;
     
 }
@@ -178,7 +184,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 
 .description {
     margin-left: 20pt;
-    margin-top: 10pt;   
+    margin-top: 0pt;   
     position:absolute; 
     z-index:-1;
 }
@@ -276,6 +282,24 @@ h1{
     
  }
 
+ .testgif {
+    display:none;
 }
+
+.testgifsmall {
+    display:block;
+    max-width:180%;
+    margin-top:20pt;
+    margin-left:-110pt;
+    position:fixed;
+    z-index:-2;
+}
+
+.dubbel {
+    margin-left:26px;
+}
+
+}
+
 
 
