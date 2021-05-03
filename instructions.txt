@@ -10,7 +10,7 @@ Name the files in a similar way to the previous ones.
 Comments describe where to put the new information.
 
 4. Next go to the folder work, open work.html and add the new "work" link.
-(do the same in the folders for previous work dino, lava, pedistal...)
+(do the same in the folders for index.html previous work dino, lava, pedistal...)
 
 
 5. last go to every index.html file and change v=1.1 to new version like v=1.2
@@ -18,3 +18,4 @@ Comments describe where to put the new information.
 In github desktop press push and thats it. 
 Check the new updates on the website, for major errors contact fredrik:)
 
+Skriv något i summary och tryck commit to master
