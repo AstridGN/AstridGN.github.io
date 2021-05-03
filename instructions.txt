@@ -1,0 +1,20 @@
+How to update the website with new work
+
+
+1. Duplicate the folder bubbleofglass and change to the name of the new work.
+
+2. Open the new folder, go to assets folder and replace the images with new ones. 
+Name the files in a similar way to the previous ones.
+
+3. Open index.html in the new folder. Check for green comments in the file. 
+Comments describe where to put the new information.
+
+4. Next go to the folder work, open work.html and add the new "work" link.
+(do the same in the folders for previous work dino, lava, pedistal...)
+
+
+5. last go to every index.html file and change v=1.1 to new version like v=1.2
+
+In github desktop press push and thats it. 
+Check the new updates on the website, for major errors contact fredrik:)
+
