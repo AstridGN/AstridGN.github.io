@@ -270,7 +270,7 @@ img {
     left: -350px;
     transition: .4s;
     display:block;
-    background: lightgray;
+    background: rgb(236, 236, 236);
 }
 
 #sidebar.active{
@@ -288,7 +288,7 @@ img {
     font-size: 20px;
     padding: 20px 24px;
     margin-left:-20px;
-    background: lightgray;
+    background: rgb(236, 236, 236);
 }
 
 #sidebar .toggle-btn {
