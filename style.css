@@ -23,7 +23,7 @@ html, body {
 
 
 body {
-  background-color: rgb(238, 237, 237);
+  background-color: rgb(236, 236, 236);
     font-family: helvetica;
 }
 
@@ -38,6 +38,7 @@ h1{
     font-size: 16pt;
     font-weight: normal;
 }
+
 
 h3{
     font-family: helvetica;
