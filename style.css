@@ -370,6 +370,10 @@ h1{
     margin-left:80px;
 }
 
+.about {
+    margin-left:0px;
+}
+
 .category {
     margin-left:-0px;
 }
