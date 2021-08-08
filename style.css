@@ -190,6 +190,10 @@ img {
     display:none;
 }
 
+#sidebar1 {
+    display:none;
+}
+
 .nav1 {
     display:none;
 }
@@ -284,6 +288,21 @@ img {
     left:0px;
 }
 
+#sidebar1 {
+    top:40px;
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    transition: .4s;
+    display:block;
+    background: rgb(236, 236, 236);
+}
+
+#sidebar1.active{
+    left:0px;
+}
+
 #sidebar1.active{
     left:20px;
 }
@@ -312,6 +331,20 @@ img {
     display:none;
 }
 
+#sidebar1 ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 24px;
+    margin-left:-20px;
+    background: rgb(236, 236, 236);
+}
+
+#sidebar1 .toggle-btn {
+    position: absolute;
+    top: -29px;
+    left: 330px;
+    display:none;
+}
 
 
 .toggle-btn span {
