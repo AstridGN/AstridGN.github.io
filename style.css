@@ -284,6 +284,10 @@ img {
     left:0px;
 }
 
+#sidebar1.active{
+    left:20px;
+}
+
 .toggle-btn.active{
     left:50px;
 }
